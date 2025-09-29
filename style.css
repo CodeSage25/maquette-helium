@@ -9,6 +9,7 @@
   box-sizing: border-box;
   list-style: none;
   font-family: DMserif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
 }
 body {
   background: rgb(36, 29, 29);
