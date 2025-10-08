@@ -11,10 +11,40 @@
   font-family: DMserif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  
 }
+a,
+a:visited{
+  z-index: 1000;
+  position: relative;
+}
 body {
   background: rgb(36, 29, 29);
   color: white;
-   overflow-x: hidden;
+  cursor: none;
+
+}
+.mouse{
+  position: absolute;
+  border-radius: 1500px;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+ 
+}
+#cursor1{
+background: #2128bd;
+width: 14px;
+height: 14px;
+}
+#mouse2{
+height: 100px;
+width: 100px;
+background: white;
+transition: 0.15s ease;
+}
+#mouse3{
+height: 200px;
+width: 200px;
+background: rgb(33, 32, 32);
+transition: 0.25s ease
 }
 nav {
   display: grid;
